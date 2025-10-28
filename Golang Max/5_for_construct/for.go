@@ -25,4 +25,10 @@ func main() {
 		}
 		fmt.Println(e)
 	}
+
+	fmt.Println("-----------------Range------------------------")
+
+	for x := range 10 {
+		fmt.Println(x)
+	}
 }
